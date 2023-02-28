@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Login</title>
+    <link rel="stylesheet" href="admin/css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <img src="admin/image/images.jpeg" alt="">
+    <div class="container">
+        <h2>Login Hear</h2>
+        <form action="" method="post">
+            <div class="textfild">
+                <label>Select Role: </label>
+                <select name="role" id="role">
+                    <option selected="select">Select</option>
+                    <option value="">Admin</option>
+                    <option value="">Master</option>
+                    <option value="">Reception</option>
+                    <option value="">Diagnostic Lab</option>
+                    <option value="">Radiology Lab</option>
+                </select>
+            </div>
+            <div class="textfild">
+                <label><i class='fas fa-user'></i>Username : </label>
+                <input type="text" name="key" id="" placeholder="Enter User Name">
+            </div>
+            <div class="textfild">
+                <lebel>Password: </lebel>
+                <input type="password" name="password" placeholder="Enter Your Password">
+            </div>
+            <div class="forget">
+                Forgate Password ?
+            </div>
+            <div class="btn">
+                <input type="button" value="Click Me" onclick="clicked()">
+            </div>
+            <script src="admin/js/login.js"></script>
+        </form>
+    </div>
+</body>
+
+</html>
